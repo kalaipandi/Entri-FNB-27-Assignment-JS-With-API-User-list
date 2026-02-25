@@ -1,0 +1,70 @@
+
++<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Booking System</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <h1>Office Booking & Parking</h1>
+
+    <!-- Day Pass Section -->
+    <h2>Day Pass</h2>
+    <!-- <p id="daypass">Price: $20 per day</p>
+    <button type="text" onclick="">Buy Day Pass</button> -->
+    
+    <input type="number" id="daypass" placeholder="Day pass price">
+    <input type="checkbox" id="time24" /> 24-hour access
+    <input type="text" id="aadhar" placeholder="Aadhar number">
+    <input type="date" id="advanceDate" />
+    <input type="parking" id="charge" placeholder="parking price">
+    <button onclick="checkDaypass()">Check Day Pass</button>
+
+    <p id="result"></p>
+    <br><br>
+    <!-- This is where the message will appear -->
+    <hr>
+    <div class="map-container">
+    <h3>Our Workspace Location</h3>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086083201785!2d-122.41941568468104!3d37.77492977975966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f6bcfbed%3A0x93f7c1e6767c0f8!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1693545123456!5m2!1sen!2sin"
+        width="100%"
+        height="250"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+    <!-- Bulk Pass Section -->
+    <!-- <h2>Bulk Pass</h2>
+    <p id="bulkpass">5 Days Pass: $90</p>
+    <p id="bulkpass1">10 Days Pass: $170</p>
+    <button>Buy Bulk Pass</button>
+ <br><br>
+    <hr> -->
+
+    <!-- Meeting Room Section -->
+    <!-- <h2>Meeting Room Booking</h2>
+    <p id="meeting">Price: $15 per hour</p>
+    <label>Enter Hours:</label>
+    <input type="number">
+    <button>Book Room</button>
+ <br><br>
+    <hr> -->
+
+    <!-- Parking Section -->
+    <!-- <h2>Parking Charge</h2>
+    <p id="parking">$5 per hour</p>
+    <label>Enter Parking Hours:</label>
+    <input type="number" >
+    <button>Pay Parking</button> -->
+
+    <script src="index2.js"></script>
+
+</body>
+</html>
